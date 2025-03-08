@@ -42,7 +42,7 @@ def get_similarity_score(original_content, plagiarized_content):
 # 主程序
 def main():
     if(len(sys.argv) != 4):
-        print("正确用法: python main.py [论文原文路径] [抄袭版论文路径] [结果保存路径]")
+        print("正确用法: python main.py <论文原文路径> <抄袭版论文路径> <结果保存路径>")
         sys.exit(1)
 
     original_file_path = sys.argv[1]
